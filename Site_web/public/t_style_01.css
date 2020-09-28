@@ -1,0 +1,203 @@
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+nav{
+    border-bottom: 0.2em solid #333333;
+}
+
+nav a {
+    color: white !important;
+}
+
+nav a:hover {
+    color: skyblue !important;
+}
+
+.navbar-toggler-icon {
+    background-color: #333333 !important;
+}
+
+.jumbotron {
+    margin-top: 3.6em;
+    color: #333333;
+    font-weight: bolder;
+}
+
+#logo-lesrosses {
+    width: 3em;
+}
+
+/*<p> et <ol> justifie*/
+p{
+    text-align: justify;
+}
+ol{
+    text-align: justify;
+}
+.haha{
+    text-align: center;
+}
+.lead{
+    text-align: center;
+
+}
+/*transition icons hover or another*/
+#series a:hover {
+    color: black !important;
+}
+
+#Decouvrir {
+    height: 4em;
+}
+
+#Decouvrir a {
+    padding: 0.5em;
+}
+
+#Decouvrir a:hover {
+    border-bottom: 4px solid black;
+}
+
+#reservation {
+    height: 4em;
+}
+
+#reservation a {
+    padding: 0.5em;
+}
+
+#reservation a:hover {
+    border-bottom: 4px solid black;
+}
+
+#facebook {
+    color: #3b5998;
+}
+
+#twitter {
+    color: #1da1f2;
+}
+
+#google {
+    color: #dd4b39;
+}
+
+.youtube {
+    color: #ff0000 !important;
+}
+
+#twitch {
+    color: #6441a5;
+}
+
+#patreon {
+    color: #f96854;
+}
+
+#discord {
+    color: #7289da;
+}
+
+#github {
+    color: #333;
+}
+
+#google-drive {
+    color: #34a853;
+}
+
+.icono-azul {
+    color: #00adef;
+}
+
+.categoria-video {
+    cursor: pointer;
+    padding: 1em;
+}
+
+.categoria-video:hover {
+    background-color: #00adef;
+    color: white;
+}
+
+.boton-serie {
+    background-color: #00adef;
+    color: white;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+.boton-serie:hover {
+    background-color: black;
+}
+
+.card-body {
+    border: 1px solid #00adef;
+    border-radius: 0;
+}
+
+.links-ficha-serie a {
+    padding: 0.5em;
+}
+
+#footer {
+    background-color: #00adef;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+p.inline{
+    display: inline;
+}
+div.marg{
+    margin-top: 0.9rem;
+    margin-bottom: 0.9rem;
+    padding-right: 4rem;
+}
+span.esp{
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+.center{
+    text-align: center;
+}
+#input_01{
+    padding: 4px;
+    cursor: pointer;
+    font-family: arial;
+    border-radius: 20px;
+    background: linear-gradient(#A2B1FF, #515880);
+    color: white;
+    border: none;
+}
+#input_01:hover{
+    color: white;
+    background: linear-gradient(#C0CAFF, #606580);
+}
+#input_01:active{
+    background: linear-gradient(#A2B1FF, #515880);
+    color: white;
+    box-shadow: 1px 1px 10px black inset, 0 1px 0 rgba( 255, 255, 255, 0.4);
+}
+
+#unestilo{
+    padding-left: 15px;
+}
+
+#form_consult_informe{
+    float: left;
+    width: 25%;
+}
+
+#display_informe{
+    float: right;
+    width: 70%;
+}
+#error_connexion{
+    text-align: center;
+    color: red;
+}
